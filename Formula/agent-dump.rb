@@ -1,24 +1,24 @@
 class AgentDump < Formula
   desc "Export and search AI coding assistant sessions"
   homepage "https://github.com/xingkaixin/agent-dump"
-  version "1.1.1"
+  version "1.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/xingkaixin/agent-dump/releases/download/v1.1.1/agent-dump-darwin-arm64"
-      sha256 "45cc248ec1a69bdf2c5778403ff131842804df5f89b1ad0a69060324fa6ce452"
+      url "https://github.com/xingkaixin/agent-dump/releases/download/v1.2.0/agent-dump-darwin-arm64"
+      sha256 "9d452fddd9231876309f682a7228ad83d741a37887a4da0e1b0c8b6b60b0267b"
     end
     on_intel do
-      url "https://github.com/xingkaixin/agent-dump/releases/download/v1.1.1/agent-dump-darwin-x64"
-      sha256 "c37ef877662f12148646c0fd09ca41be40001b73d511197f74f37fd0428e9ddc"
+      url "https://github.com/xingkaixin/agent-dump/releases/download/v1.2.0/agent-dump-darwin-x64"
+      sha256 "9abf00a4336fb340a7a1843ce53e2e5836fe91db0f110271325e409fb7e8c675"
     end
   end
 
   on_linux do
     depends_on arch: :x86_64
-    url "https://github.com/xingkaixin/agent-dump/releases/download/v1.1.1/agent-dump-linux-x64"
-    sha256 "3bb9cac39d41434d992db3e02220e47729d66a8f968a67cc5bf832ebaf92e0ea"
+    url "https://github.com/xingkaixin/agent-dump/releases/download/v1.2.0/agent-dump-linux-x64"
+    sha256 "0e1e07f129d4e2b4647303150802ddb14854c2ec4027fea54d5b3b54aa1b2984"
   end
 
   def install
