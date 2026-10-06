@@ -1,19 +1,19 @@
 class Codesesh < Formula
   desc "Browse local AI coding sessions"
   homepage "https://codesesh.xingkaixin.me"
-  version "1.2.8"
+  version "1.2.9"
   license "MIT"
 
   depends_on :macos
 
   on_arm do
-    url "https://github.com/xingkaixin/codesesh/releases/download/v1.2.8/codesesh-1.2.8-aarch64-apple-darwin.tar.gz"
-    sha256 "3db72f09b85e02dd348f6ee71c1cdfe14c46736ba3271ce86cb94ae11fbd6d7b"
+    url "https://github.com/xingkaixin/codesesh/releases/download/v1.2.9/codesesh-1.2.9-aarch64-apple-darwin.tar.gz"
+    sha256 "07e28efc374cb07e48dc9dc6c59d8eedba2dfd7191e8dcdf908159ab06fe056e"
   end
 
   on_intel do
-    url "https://github.com/xingkaixin/codesesh/releases/download/v1.2.8/codesesh-1.2.8-x86_64-apple-darwin.tar.gz"
-    sha256 "5039eb14688e1e551bfa0c57eccfaf39ca93c75b041a70347e97e32859ad85db"
+    url "https://github.com/xingkaixin/codesesh/releases/download/v1.2.9/codesesh-1.2.9-x86_64-apple-darwin.tar.gz"
+    sha256 "1af48dfe85ac57de28145a170e569ab8d8bdd039430c07ba10bedf5743408df7"
   end
 
   def install
